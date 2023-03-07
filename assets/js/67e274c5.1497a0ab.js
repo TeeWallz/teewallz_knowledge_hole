@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunktoms_knowledge_hole=self.webpackChunktoms_knowledge_hole||[]).push([[1246],{3769:e=>{e.exports=JSON.parse('{"name":"docusaurus-plugin-content-docs","id":"default"}')}}]);
