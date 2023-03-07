@@ -76,12 +76,17 @@ const config = {
                         type: 'doc',
                         docId: 'Home',
                         position: 'left',
-                        label: 'Wiki',
+                        label: '~/Wiki',
                     },
                     {
                         to: '/blog',
-                        label: 'Blog',
+                        label: '~/Blog',
                         position: 'left'
+                    },
+                    {
+                        label: '🐦',
+                        href: 'https://twitter.com/fckeveryword/status/1621296957011410944?cxt=HHwWgICy4cG_gIAtAAAA',
+                        position: 'right',
                     },
                     {
                         href: 'https://github.com/TeeWallz/teewallz_knowledge_hole',
@@ -90,51 +95,51 @@ const config = {
                     },
                 ],
             },
-            footer: {
-                style: 'dark',
-                links: [
-                    // {
-                    //     title: 'Docs',
-                    //     items: [
-                    //         {
-                    //             label: 'Tutorial',
-                    //             to: '/docs/intro',
-                    //         },
-                    //     ],
-                    // },
-                    {
-                        title: 'Community',
-                        items: [
-                            // {
-                            //     label: 'Stack Overflow',
-                            //     href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-                            // },
-                            // {
-                            //     label: 'Discord',
-                            //     href: 'https://discordapp.com/invite/docusaurus',
-                            // },
-                            {
-                                label: 'Twitter',
-                                href: 'https://twitter.com/fckeveryword/status/1621296957011410944?cxt=HHwWgICy4cG_gIAtAAAA',
-                            },
-                        ],
-                    },
-                    {
-                        title: 'More',
-                        items: [
-                            {
-                                label: 'Blog',
-                                to: '/blog',
-                            },
-                            {
-                                label: 'GitHub',
-                                href: 'https://github.com/facebook/docusaurus',
-                            },
-                        ],
-                    },
-                ],
-                copyright: `Copyright © ${new Date().getFullYear()} Tom's Knowledge Hole. Built with Docusaurus.`,
-            },
+            // footer: {
+            //     style: 'dark',
+            //     links: [
+            //         // {
+            //         //     title: 'Docs',
+            //         //     items: [
+            //         //         {
+            //         //             label: 'Tutorial',
+            //         //             to: '/docs/intro',
+            //         //         },
+            //         //     ],
+            //         // },
+            //         {
+            //             title: 'Community',
+            //             items: [
+            //                 // {
+            //                 //     label: 'Stack Overflow',
+            //                 //     href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+            //                 // },
+            //                 // {
+            //                 //     label: 'Discord',
+            //                 //     href: 'https://discordapp.com/invite/docusaurus',
+            //                 // },
+            //                 {
+            //                     label: 'Twitter',
+            //                     href: 'https://twitter.com/fckeveryword/status/1621296957011410944?cxt=HHwWgICy4cG_gIAtAAAA',
+            //                 },
+            //             ],
+            //         },
+            //         {
+            //             title: 'More',
+            //             items: [
+            //                 {
+            //                     label: 'Blog',
+            //                     to: '/blog',
+            //                 },
+            //                 {
+            //                     label: 'GitHub',
+            //                     href: 'https://github.com/facebook/docusaurus',
+            //                 },
+            //             ],
+            //         },
+            //     ],
+            //     copyright: `Copyright © ${new Date().getFullYear()} Tom's Knowledge Hole. Built with Docusaurus.`,
+            // },
             prism: {
                 theme: lightCodeTheme,
                 darkTheme: darkCodeTheme,

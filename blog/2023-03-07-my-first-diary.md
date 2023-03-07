@@ -1,6 +1,6 @@
 ---
 slug: my-first-blog-post
-title: My first Blog Post
+title: My first diary
 authors: tom
 tags: []
 ---
