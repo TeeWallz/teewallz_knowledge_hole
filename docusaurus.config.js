@@ -11,7 +11,7 @@ const config = {
     favicon: 'img/favicon.ico',
 
     // Set the production url of your site here
-    url: 'https://your-docusaurus-test-site.com',
+    url: 'https://wiki.teewallz.dev',
     // Set the /<baseUrl>/ pathname under which your site is served
     // For GitHub pages deployment, it is often '/<projectName>/'
     baseUrl: '/',
@@ -19,7 +19,7 @@ const config = {
     // GitHub pages deployment config.
     // If you aren't using GitHub pages, you don't need these.
     organizationName: 'Teewallz', // Usually your GitHub org/user name.
-    projectName: 'knowledge-hole', // Usually your repo name.
+    projectName: 'teewallz_knowledge_hole', // Usually your repo name.
 
     onBrokenLinks: 'throw',
     onBrokenMarkdownLinks: 'warn',
@@ -42,14 +42,14 @@ const config = {
                     // Please change this to your repo.
                     // Remove this to remove the "edit this page" links.
                     editUrl:
-                        'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+                        'https://github.com/TeeWallz/teewallz_knowledge_hole/tree/main/',
                 },
                 blog: {
                     showReadingTime: true,
                     // Please change this to your repo.
                     // Remove this to remove the "edit this page" links.
                     editUrl:
-                        'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+                        'https://github.com/TeeWallz/teewallz_knowledge_hole/tree/main/',
                 },
                 theme: {
                     customCss: require.resolve('./src/css/custom.css'),
@@ -63,6 +63,8 @@ const config = {
         ({
             // Replace with your project's social card
             image: 'img/docusaurus-social-card.jpg',
+            defaultMode: 'dark',
+            respectPrefersColorScheme: true,
             navbar: {
                 title: 'Teewallz Knowledge Hole',
                 logo: {
@@ -74,7 +76,7 @@ const config = {
                         type: 'doc',
                         docId: 'Home',
                         position: 'left',
-                        label: 'Technology',
+                        label: 'Wiki',
                     },
                     {
                         to: '/blog',
@@ -82,7 +84,7 @@ const config = {
                         position: 'left'
                     },
                     {
-                        href: 'https://github.com/facebook/docusaurus',
+                        href: 'https://github.com/TeeWallz/teewallz_knowledge_hole',
                         label: 'GitHub',
                         position: 'right',
                     },
@@ -103,17 +105,17 @@ const config = {
                     {
                         title: 'Community',
                         items: [
-                            {
-                                label: 'Stack Overflow',
-                                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-                            },
-                            {
-                                label: 'Discord',
-                                href: 'https://discordapp.com/invite/docusaurus',
-                            },
+                            // {
+                            //     label: 'Stack Overflow',
+                            //     href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                            // },
+                            // {
+                            //     label: 'Discord',
+                            //     href: 'https://discordapp.com/invite/docusaurus',
+                            // },
                             {
                                 label: 'Twitter',
-                                href: 'https://twitter.com/docusaurus',
+                                href: 'https://twitter.com/fckeveryword/status/1621296957011410944?cxt=HHwWgICy4cG_gIAtAAAA',
                             },
                         ],
                     },
@@ -131,7 +133,7 @@ const config = {
                         ],
                     },
                 ],
-                copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+                copyright: `Copyright © ${new Date().getFullYear()} Tom's Knowledge Hole. Built with Docusaurus.`,
             },
             prism: {
                 theme: lightCodeTheme,
