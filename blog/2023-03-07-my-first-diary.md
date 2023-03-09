@@ -23,6 +23,10 @@ While this was a great starting point, Notion lacks any kind of 'performative' n
 Covid has made me realised just how connected we all are, and that locking ourselves away and not reaching out into the vastness of humanity is a death sentence.
 Scrolling through endless Facebook/Reddit/Tik Tok algorithms away from the vast gardens of human creation.
 
+TODO:
+- Performance -> Accountability
+- ADHD - Memory issues
+
 After my ADHD diagnosis, the resulting medication and moving from Australia to Poland, I have finally felt that I can create for creations sake.
 I have endured through childhood abuse, ADHD, hating myself, depression and this will be a tool to prove to myself that I have worth.
 
