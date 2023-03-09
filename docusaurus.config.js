@@ -92,7 +92,7 @@ const config = {
                     },
                     {
                         label: '🐦',
-                        href: 'https://twitter.com/fckeveryword/status/1621296957011410944?cxt=HHwWgICy4cG_gIAtAAAA',
+                        href: 'https://web.archive.org/web/20230309213344/https://twitter.com/fckeveryword/status/1621296957011410944?cxt=HHwWgICy4cG_gIAtAAAA',
                         position: 'right',
                     },
                     {
