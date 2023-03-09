@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktoms_knowledge_hole=self.webpackChunktoms_knowledge_hole||[]).push([[4121],{8070:e=>{e.exports=JSON.parse('[{"label":"links","permalink":"/docs/tags/links","count":1}]')}}]);
