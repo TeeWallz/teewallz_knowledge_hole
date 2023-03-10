@@ -64,106 +64,110 @@ const config = {
     ],
 
     themeConfig:
-        {
-            // Replace with your project's social card
-            image: 'img/docusaurus-social-card.jpg',
-            colorMode: {
-                defaultMode: 'dark',
-                disableSwitch: false,
-                respectPrefersColorScheme: false,
-            },
-            navbar: {
-                title: 'Teewallz Knowledge Hole',
-                logo: {
-                    alt: 'My Site Logo',
-                    src: 'img/ico.png',
-                },
-                items: [
-                    {
-                        type: 'doc',
-                        docId: 'Home',
-                        position: 'left',
-                        label: '~/Wiki',
-                    },
-                    {
-                        to: '/blog',
-                        label: '~/Blog',
-                        position: 'left'
-                    },
-                    {
-                        label: '🐦',
-                        href: 'https://web.archive.org/web/20230309213344/https://twitter.com/fckeveryword/status/1621296957011410944?cxt=HHwWgICy4cG_gIAtAAAA',
-                        position: 'right',
-                    },
-                    {
-                        href: 'https://github.com/TeeWallz/teewallz_knowledge_hole',
-                        label: 'GitHub',
-                        position: 'right',
-                    },
-                ],
-            },
-            // footer: {
-            //     style: 'dark',
-            //     links: [
-            //         // {
-            //         //     title: 'Docs',
-            //         //     items: [
-            //         //         {
-            //         //             label: 'Tutorial',
-            //         //             to: '/docs/intro',
-            //         //         },
-            //         //     ],
-            //         // },
-            //         {
-            //             title: 'Community',
-            //             items: [
-            //                 // {
-            //                 //     label: 'Stack Overflow',
-            //                 //     href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            //                 // },
-            //                 // {
-            //                 //     label: 'Discord',
-            //                 //     href: 'https://discordapp.com/invite/docusaurus',
-            //                 // },
-            //                 {
-            //                     label: 'Twitter',
-            //                     href: 'https://twitter.com/fckeveryword/status/1621296957011410944?cxt=HHwWgICy4cG_gIAtAAAA',
-            //                 },
-            //             ],
-            //         },
-            //         {
-            //             title: 'More',
-            //             items: [
-            //                 {
-            //                     label: 'Blog',
-            //                     to: '/blog',
-            //                 },
-            //                 {
-            //                     label: 'GitHub',
-            //                     href: 'https://github.com/facebook/docusaurus',
-            //                 },
-            //             ],
-            //         },
-            //     ],
-            //     copyright: `Copyright © ${new Date().getFullYear()} Tom's Knowledge Hole. Built with Docusaurus.`,
-            // },
-            // prism: {
-                // theme: lightCodeTheme,
-                // theme: darkCodeTheme,
-                // darkTheme: darkCodeTheme,
-            // },
-            zoom: {
-                selector: '.markdown :not(em) > img',
-                background: {
-                    light: 'rgb(255, 255, 255)',
-                    dark: 'rgb(50, 50, 50)'
-                },
-                config: {
-                    // options you can specify via https://github.com/francoischalifour/medium-zoom#usage
-                    margin: 80,
-                }
-            }
+    {
+        // Replace with your project's social card
+        image: 'img/docusaurus-social-card.jpg',
+        colorMode: {
+            defaultMode: 'dark',
+            disableSwitch: false,
+            respectPrefersColorScheme: false,
         },
+        tableOfContents: {
+            minHeadingLevel: 2,
+            maxHeadingLevel: 5,
+        },
+        navbar: {
+            title: 'Teewallz Knowledge Hole',
+            logo: {
+                alt: 'My Site Logo',
+                src: 'img/ico.png',
+            },
+            items: [
+                {
+                    type: 'doc',
+                    docId: 'Home',
+                    position: 'left',
+                    label: '~/Wiki',
+                },
+                {
+                    to: '/blog',
+                    label: '~/Blog',
+                    position: 'left'
+                },
+                {
+                    label: '🐦',
+                    href: 'https://web.archive.org/web/20230309213344/https://twitter.com/fckeveryword/status/1621296957011410944?cxt=HHwWgICy4cG_gIAtAAAA',
+                    position: 'right',
+                },
+                {
+                    href: 'https://github.com/TeeWallz/teewallz_knowledge_hole',
+                    label: 'GitHub',
+                    position: 'right',
+                },
+            ],
+        },
+        // footer: {
+        //     style: 'dark',
+        //     links: [
+        //         // {
+        //         //     title: 'Docs',
+        //         //     items: [
+        //         //         {
+        //         //             label: 'Tutorial',
+        //         //             to: '/docs/intro',
+        //         //         },
+        //         //     ],
+        //         // },
+        //         {
+        //             title: 'Community',
+        //             items: [
+        //                 // {
+        //                 //     label: 'Stack Overflow',
+        //                 //     href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+        //                 // },
+        //                 // {
+        //                 //     label: 'Discord',
+        //                 //     href: 'https://discordapp.com/invite/docusaurus',
+        //                 // },
+        //                 {
+        //                     label: 'Twitter',
+        //                     href: 'https://twitter.com/fckeveryword/status/1621296957011410944?cxt=HHwWgICy4cG_gIAtAAAA',
+        //                 },
+        //             ],
+        //         },
+        //         {
+        //             title: 'More',
+        //             items: [
+        //                 {
+        //                     label: 'Blog',
+        //                     to: '/blog',
+        //                 },
+        //                 {
+        //                     label: 'GitHub',
+        //                     href: 'https://github.com/facebook/docusaurus',
+        //                 },
+        //             ],
+        //         },
+        //     ],
+        //     copyright: `Copyright © ${new Date().getFullYear()} Tom's Knowledge Hole. Built with Docusaurus.`,
+        // },
+        // prism: {
+        // theme: lightCodeTheme,
+        // theme: darkCodeTheme,
+        // darkTheme: darkCodeTheme,
+        // },
+        zoom: {
+            selector: '.markdown :not(em) > img',
+            background: {
+                light: 'rgb(255, 255, 255)',
+                dark: 'rgb(50, 50, 50)'
+            },
+            config: {
+                // options you can specify via https://github.com/francoischalifour/medium-zoom#usage
+                margin: 80,
+            }
+        }
+    },
 };
 
 module.exports = config;
