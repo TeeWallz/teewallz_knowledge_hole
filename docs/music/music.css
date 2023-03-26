@@ -1,0 +1,9 @@
+.selector {
+    background-color: rgb(from var(--color) r g b / .5);
+}
+
+.down { background-color: rgb(160, 88, 46); }
+.up { background-color: green; }
+.tuning-table { display: table }
+/* .tuning-table th {background-color: grey; color: white;} */
+/* .tuning-table tr td:nth-child(1) {background-color: #EEE;} */

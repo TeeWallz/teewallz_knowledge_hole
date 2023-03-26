@@ -20,3 +20,7 @@
 
 ## Links
 - [reddit- 1 year of mustread articles](https://www.reddit.com/r/dataengineering/comments/p3kpq9/1_year_of_mustread_articles/)
+- https://www.reddit.com/r/dataengineering/comments/vhcn7n/the_state_of_data_engineering_2022/
+- https://web.archive.org/web/20200916201147/https://peterdannemann.com/babys-first-data-pipeline/
+- https://www.reddit.com/r/dataengineering/comments/vi2iv0/almost_opensource_data_stack_for_a_personal_de/
+- 
