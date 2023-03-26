@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktoms_knowledge_hole=self.webpackChunktoms_knowledge_hole||[]).push([[1952],{7085:e=>{e.exports=JSON.parse('{"name":"docusaurus-theme-search-algolia","id":"default"}')}}]);
