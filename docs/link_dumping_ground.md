@@ -2,7 +2,7 @@
 sidebar_label: Link Dumping Ground
 sidebar_class_name: pink
 ---
-
+# Link Dumping Ground
 
 
 ## My Wiki
